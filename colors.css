@@ -54,10 +54,22 @@ main{
 }
 
 .side-nav{
+    padding-left: 60px;
     position: fixed;
     top: 200;
     left: 5;
     margin-top: 200px;
+}
+
+.side-bar ul{
+    display: flex;
+    flex-direction: column;
+}
+.side-nav li{
+    list-style: none;
+    line-height: 2.5rem;
+    border-bottom: 1px solid lightgrey;
+    display: inline-block;
 }
 
 .profile{
@@ -361,9 +373,11 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5% 5% 0% 0%;
-    border: solid red;
     display: flex;
     align-items: flex-end;
+    padding: 15px;
+    color: white;
+
 }
 
 .blog-pic2{
@@ -371,6 +385,10 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5% 5% 0% 0%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    color: white;
 }
 
 .blog-pic3{
@@ -378,4 +396,125 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5% 5% 0% 0%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    color: white;
+}
+
+.date{
+    background-color: #ec1839;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.blog-text1{
+    padding: 10px;
+    display: grid;
+    place-content: center;
+
+}
+
+.HD{
+    margin-bottom: 20px;
+}
+
+.HD2{
+
+}
+.HD3{
+margin-top: 20px;
+}
+
+.tag{
+    color: #ec1839;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact1{
+    line-height: 200%;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.submit{
+    display: block;
+}
+.text1{
+    display: block;
+}
+
+.name input{
+    width: 45%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.text1{
+    width: 45%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.text2{
+    width: 90%;
+    height:150px; 
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.submit{
+    width: 20%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+}
+
+input{
+    margin: 10px;
+}
+
+.edu-ex-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.education-container, .experience-container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px lightgray;
+    padding: 10px;
+    width: 90%;
+   
+    line-height: 1.5rem;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.education, .experience{
+
+}
+
+.education-container div, .experience-container div{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    line-height: 2rem;
 }
