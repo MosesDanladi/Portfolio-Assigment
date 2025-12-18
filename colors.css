@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    display: flex;
+}
+
+.home{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.about{
+    min-height: 100vh;
+    padding: 60px;
+}
+
+.service{
+    min-height: 100vh;
+}
+
+.portfolio{
+    min-height: 100vh;
+}
+.blog{
+    min-height: 100vh;
+}
+
+.contact{
+    min-height: 100vh;
+}
+
+.side-bar{
+    flex: 17;
+}
+
+.container{
+    flex: 70;
+    background-color: #f2f2fc;
+}
+
+.side-bar h1{
+    position: fixed;
+    top: 10;
+    left: 5;
+}
+
+.side-nav{
+    position: fixed;
+    top: 200;
+    left: 5;
+    margin-top: 200px;
+}
+
+.profile{
+    border: 8px solid white;
+    border-radius: 50%;
+    width: 17%;
+    height: auto;
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+
+}
+#bar{
+    width: 50px;
+    height: 5px;
+    background-color: red;
+}
+#bar2{
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    margin-top: 5px;
+}
+.span{
+    color: red;
+}
+.dev-info{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#detail1{
+flex: 65;
+}
+
+#detail2{
+line-height: 2.5rem;
+height: 300px;
+flex: 35;
+padding: 20px;
+}
+
+.title{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer-bar{
+    width: 400px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.inner-bar{
+    width: 76%;
+    height: 7px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.title2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.outer-bar2{
+    width: 400px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.inner-bar2{
+    width: 350px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.title3{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.outer-bar3{
+    width: 400px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.inner-bar3{
+    width: 300px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.title4{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.outer-bar4{
+    width: 400px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.inner-bar4{
+    width: 260px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.formation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 40px;
+    justify-content: space-between;
+}
+
+.formation div{
+    border-bottom: 1px solid lightgray;
+    width: 200px;
+}
+
+.btn{
+    background-color: #ec1839;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.service{
+    padding: 35px;
+}
+
+.container-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.itemss{
+    background-color: #fdf9ff;
+    border-radius: 5%;
+    text-align: center;
+    border: 1px solid lightgray;
+    place-content: center;
+    line-height: 2rem;
+}
+.portfolio{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.port-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 30px;
+    margin-top: 40px;
+}
+.port{
+    background-color: #fdf9ff;
+    border-radius: 5%;
+    border: 5px solid white;
+    display: grid;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+.nav{
+    margin: 0 auto;
+    display: flex;
+    width: 30%;
+
+    
+    
+}
+
+
+.ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.itemss img:hover{
+    background-color: #ec1839;
+}
+
+.port img{
+  width: 100%;
+  height: auto;
+}
+
+.port:first-child{
+    background-image: url("Assets/Image/handbag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.port:nth-child(2){
+    background-image: url(Assets/Image/photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.port:nth-child(3){
+    background-image: url(Assets/Image/wordpress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.port:nth-child(4){
+    background-image: url(Assets/Image/web\ design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.port:nth-child(5){
+    background-image: url(Assets/Image/wordpress\ aqua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.port:nth-child(6){
+    background-image: url(Assets/Image/photography\ 222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.blog{
+    padding: 35px;
+}
+
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 500px);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog1{
+    background-color: #fdf9ff;
+    border-radius: 5%;
+    border: 1px solid lightgray;
+    display: grid;
+    
+}
+.blog-pic1{
+    background-image: url(Assets/Image/coffe\ cup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5% 0% 0%;
+    border: solid red;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blog-pic2{
+    background-image: url(Assets/Image/book\ mockup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.blog-pic3{
+    background-image: url(Assets/Image/book\ on\ wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5% 0% 0%;
+}
