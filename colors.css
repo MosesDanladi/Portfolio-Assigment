@@ -12,6 +12,11 @@ main{
     display: flex;
 }
 
+#Mozez{
+    padding: 50px;
+    margin-top: 20px;
+}
+
 .home{
     min-height: 100vh;
     display: grid;
